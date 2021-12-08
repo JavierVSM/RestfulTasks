@@ -29,5 +29,4 @@ export class HttpService {
     let tempObservable = this._http.get('http://localhost:8080/tasks/remove/'+url);
     tempObservable.subscribe(data => console.log("Task Removed"));
   }
-
 }

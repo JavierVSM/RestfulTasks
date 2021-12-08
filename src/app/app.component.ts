@@ -8,6 +8,6 @@ import { HttpService } from './http.service';
 })
 export class AppComponent {
   title: string = 'users-client';
-  
+
   constructor(private _httpService: HttpService){}
 }
